@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS test (
+    id SERIAL PRIMARY KEY,
+    nom VARCHAR(100) NOT NULL
+);
+
+INSERT INTO test (nom) VALUES ('Alice'), ('Bob');
